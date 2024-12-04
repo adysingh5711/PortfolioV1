@@ -1,11 +1,5 @@
 import Project_prop from "./project_prop";
-import {
-  GPT4,
-  Portfolio,
-  Rocket,
-  WellBeing,
-  Game,
-} from "../constants/Constant";
+import { Portfolio } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import AOS from "aos";
@@ -43,7 +37,7 @@ const Projects = () => {
             para="Personal portfolio website created with react and Tailwind CSS"
             img={Portfolio}
             link=""
-            github_link=""
+            github_link="https://github.com/adysingh5711/Personal-Portfolio"
             react={
               <Tooltip title="React" arrow>
                 <IconButton>

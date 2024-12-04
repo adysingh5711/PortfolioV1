@@ -25,11 +25,7 @@ const Education = () => {
         >
           <div className="max-w-[520px] mt-[52px] p-7 max-sm:p-3">
             <div className="flex gap-5">
-              <img
-                src={IIIT_Ranchi}
-                alt="IIIT Ranchi"
-                className="w-[90px] h-[90px]"
-              />
+              <img src={IIIT_Ranchi} alt="IIIT Ranchi" className="h-[90px]" />
               <h1 className="bg-clip-text text-transparent bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100 font-semibold text-2xl w-[300px] h-[100px] tracking-wider ">
                 Indian Institue Of Information Technology Ranchi
               </h1>

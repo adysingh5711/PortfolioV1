@@ -11,6 +11,9 @@ import {
   CPP,
   C,
   Vue,
+  Solidity,
+  Figma,
+  VS_Code,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -38,12 +41,15 @@ const Skills = () => {
           <Image img={react}></Image>
           <Image img={TailwindCSS}></Image>
           <Image img={Vue}></Image>
+          <Image img={Solidity}></Image>
           <Image img={CPP}></Image>
           <Image img={C}></Image>
           <Image img={Python}></Image>
           <Image img={Vite}></Image>
+          <Image img={Figma}></Image>
           <Image img={Git}></Image>
           <Image img={Github}></Image>
+          <Image img={VS_Code}></Image>
         </div>
       </section>
     </>

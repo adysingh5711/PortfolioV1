@@ -6,16 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-import {
-  Hackthechain,
-  GSSOC,
-  IITB,
-  Sports,
-  IIITians,
-  GDSC,
-  KDE,
-  Oppia,
-} from "../constants/Constant";
+import { Hacktoberfest, SSOC, IIITians } from "../constants/Constant";
 
 const Experience = () => {
   useEffect(() => {
@@ -37,21 +28,21 @@ const Experience = () => {
             data-aos="zoom-in-up"
           >
             <Exp_prop
-              img={Oppia}
+              img={IIITians}
               title="IIITians Network"
               subtitle="Tech Team Member"
               date="August 2023 - present"
               para="- Working collaboratively within a team to develop and maintain the webbsite of the organisation."
             />
             <Exp_prop
-              img={GSSOC}
+              img={SSOC}
               title="SSoC'23 Contributor"
               subtitle="Contributor"
               date="June 2023 - present"
               para="- Contributed in open source repositories like GameSphere, OpenTech, Moksh, Community Website etc. "
             />
             <Exp_prop
-              img={GSSOC}
+              img={Hacktoberfest}
               title="Hacktoberfest 10"
               subtitle="Contributor"
               date="October 2023 - November 2023"

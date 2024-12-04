@@ -51,7 +51,7 @@ const Contact = () => {
                 <SiTwitter />
               </a>
               <a
-                href="singhaditya5711@gmail.com"
+                href="mailto:singhaditya5711@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiGmail />
