@@ -38,7 +38,7 @@ const Projects = () => {
             title="Portfolio Website"
             para="Personal portfolio website created with react and Tailwind CSS"
             img={Portfolio}
-            link=""
+            link="https://adysingh5711.github.io/Personal-Portfolio/"
             github_link="https://github.com/adysingh5711/Personal-Portfolio"
             react={
               <Tooltip title="React" arrow>
