@@ -1,5 +1,5 @@
 import Project_prop from "./project_prop";
-import { Portfolio } from "../constants/Constant";
+import { Portfolio, BrainIQ, EmotionInference } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import AOS from "aos";
@@ -12,7 +12,9 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiFigma,
 } from "react-icons/si";
+import { MdBarChart } from "react-icons/md"; // Substitute for Chart.js
 
 const Projects = () => {
   useEffect(() => {
@@ -56,6 +58,69 @@ const Projects = () => {
               <Tooltip title="Vite" arrow>
                 <IconButton>
                   <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
+          <Project_prop
+            title="Brain-IQ"
+            para="Designed and developed a multilingual Study Platform"
+            img={BrainIQ}
+            link=""
+            github_link="https://github.com/adysingh5711/Brain-IQ"
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            figma={
+              <Tooltip title="Figma" arrow>
+                <IconButton>
+                  <SiFigma className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            vite={
+              <Tooltip title="Vite" arrow>
+                <IconButton>
+                  <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
+          <Project_prop
+            title="Emotion Inference"
+            para="Created a website to monitor the realtime data from the Street Lights and implemented the security system."
+            img={EmotionInference}
+            link="https://adysingh5711.github.io/Smart-Lightings-Trinetra/index.html"
+            github_link="https://github.com/adysingh5711/Smart-Lightings-Trinetra"
+            html={
+              <Tooltip title="HTML" arrow>
+                <IconButton>
+                  <SiHtml5 className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            css={
+              <Tooltip title="CSS" arrow>
+                <IconButton>
+                  <SiCss3 className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            javascript={
+              <Tooltip title="JavaScript" arrow>
+                <IconButton>
+                  <SiJavascript className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            chartjs={
+              <Tooltip title="Chart.js" arrow>
+                <IconButton>
+                  <MdBarChart className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }

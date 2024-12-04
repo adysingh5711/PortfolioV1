@@ -19,7 +19,9 @@ import SSOC from "../assets/SSOC.jpeg";
 import Sports from "../assets/Sports_Club.png";
 import IIITians from "../assets/IIITians_Network.jpg";
 
-import Portfolio from "../assets/portfolio.jpg";
+import Portfolio from "../assets/Portfolio-Website.png";
+import BrainIQ from "../assets/Brain-IQ.png";
+import EmotionInference from "../assets/Emotion-Inference.png";
 
 export {
   C,
@@ -42,4 +44,6 @@ export {
   Sports,
   IIITians,
   Portfolio,
+  BrainIQ,
+  EmotionInference,
 };
