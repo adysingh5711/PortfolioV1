@@ -29,41 +29,59 @@ const Contact = () => {
               <a
                 href="https://github.com/adysingh5711"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <SiGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/singhaditya5711/"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <SiLinkedin />
               </a>
               <a
                 href="https://www.instagram.com/singhaditya5711/"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <SiInstagram />
               </a>
               <a
                 href="https://twitter.com/singhaditya5711"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <SiTwitter />
               </a>
               <a
                 href="mailto:singhaditya5711@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <SiGmail />
               </a>
             </div>
             <div className="flex gap-5 max-sm:justify-center">
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300  from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
-                <a href="">Resume</a>
+                <a
+                  href="https://drive.google.com/file/d/1hQRqHLGBT11nxFMX4-v3MOaB7k-INk5X/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
               </button>
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300 from-blue-600 to-cyan-600  font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
                 <a
                   href="https://github.com/adysingh5711/Personal-Portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex gap-2 items-center justify-center"
                 >
                   <SiGithub />
