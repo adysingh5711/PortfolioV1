@@ -17,18 +17,20 @@ Welcome to my personal portfolio! I am Aditya Singh, a passionate programmer and
 
 - **IIITians Network**  
   **Tech Team Member**  
-  *August 2023 - Present*  
+  _August 2023 - Present_
+
   - Contributing to the development and maintenance of the organization's website.
 
 - **SSoC'23 Contributor**  
   **Contributor**  
-  *June 2023 - Present*  
-  - Contributed to open-source repositories such as GameSphere, OpenTech, Moksh, and Community Website.
+  _June 2023 - Present_
+
+  - Contributed to open-source repositories.
 
 - **Hacktoberfest 10**  
   **Contributor**  
-  *October 2023 - November 2023*  
-  - Contributed to open-source repositories, including GameSphere, OpenTech, Moksh, and Community Website.
+  _October 2023 - November 2023_
+  - Contributed to open-source repositories.
 
 ---
 
@@ -36,7 +38,7 @@ Welcome to my personal portfolio! I am Aditya Singh, a passionate programmer and
 
 - **IIIT Ranchi**  
   **Bachelor of Technology**  
-  *November 2022 - May 2026*  
+  _November 2022 - May 2026_
   - Specializing in **Electronics and Communication Engineering**.
 
 ---
@@ -56,14 +58,17 @@ Welcome to my personal portfolio! I am Aditya Singh, a passionate programmer and
 ## 🛠️ **Projects**
 
 ### **Portfolio Website**
+
 **Tech Stack**: React, Tailwind CSS, Vite  
-A personal portfolio website showcasing my skills, experience, and projects.  
+A personal portfolio website showcasing my skills, experience, and projects.
 
 ### **Brain-IQ**
+
 **Tech Stack**: React, Node.js, MongoDB  
 Designed and developed a multilingual study platform with features like quizzes, study materials, and progress tracking.
 
 ### **Emotion Inference**
+
 **Tech Stack**: HTML, CSS, JavaScript, Chart.js  
 A project that monitors real-time data from street lights and implements a security system using data visualization and alerts.
 
@@ -72,47 +77,56 @@ A project that monitors real-time data from street lights and implements a secur
 ## 🌟 **How to Run Locally**
 
 1. Clone the repository to your local machine:
+
    ```bash
-   git clone https://github.com/adysingh5711/Personal-Portfolio.git
+   git clone https://github.com/adysingh5711/Portfolio.git
    ```
 
 2. Navigate to the project directory:
-    ```bash
-    cd Personal-Portfolio
-    ```
+
+   ```bash
+   cd Portfolio
+   ```
 
 3. Install the dependencies:
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 4. Run the project locally:
-    ```bash
-    npm run dev
-    ```
 
-5. Visit the application at http://localhost:3000.
+   ```bash
+   npm run dev
+   ```
+
+5. Visit the application at http://localhost:5173/Portfolio.
 
 ---
 
 ## 📑 Resume
+
 You can view my resume by clicking the following link:
 
-[Aditya Singh Resume](https://drive.google.com/drive/u/1/folders/1IYxmCjxJMgqPYhRAGwS-Kedp_9kLPnlU)
+[Aditya's Resume](https://drive.google.com/drive/u/1/folders/1IYxmCjxJMgqPYhRAGwS-Kedp_9kLPnlU)
 
 ## 🌐 Contact
+
 - LinkedIn: [Aditya Singh](https://www.linkedin.com/in/singhaditya5711/)
 - GitHub: [adysingh5711](https://github.com/adysingh5711)
-- Email: [adysingh5711@gmail.com](mailto:adysingh5711@gmail.com)
+- Email: [singhaditya5711@gmail.com](mailto:singhaditya5711@gmail.com)
 
 ## ✨ Contributions
+
 If you found this project helpful, please star the repository. Your support encourages me to create more projects like this!
 
 Feel free to contribute by submitting a pull request. I am open to new ideas and improvements.
 
 ## 📝 License
+
 This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
+
 Thanks to React, Tailwind CSS, and Vite for the awesome development experience!  
 Inspired by open-source communities like Hacktoberfest and GitHub.

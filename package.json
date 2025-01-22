@@ -1,6 +1,6 @@
 {
   "name": "Aditya-Singh",
-  "homepage": "https://adysingh5711.github.io/Personal-Portfolio",
+  "homepage": "https://adysingh5711.github.io/Portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist" // To deploy on github pages run "npm run deploy"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
