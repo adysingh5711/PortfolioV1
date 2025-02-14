@@ -23,11 +23,13 @@ const About = () => {
             </p>
           </div>
 
-          <Lottie
-            animationData={computer}
-            loop={true}
-            className="max-w-[650px] shadow-xl rounded-xl border border-[#00040f]"
-          />
+          <div className="flex justify-center">
+            <Lottie
+              animationData={computer}
+              loop={true}
+              className="max-w-[650px] shadow-xl rounded-xl border border-[#00040f] desktop-margin"
+            />
+          </div>
         </div>
       </section>
     </>

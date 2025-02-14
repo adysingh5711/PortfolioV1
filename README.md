@@ -108,7 +108,7 @@ A project that monitors real-time data from street lights and implements a secur
 
 You can view my resume by clicking the following link:
 
-[Aditya's Resume](https://drive.google.com/drive/u/1/folders/1IYxmCjxJMgqPYhRAGwS-Kedp_9kLPnlU)
+[Aditya's Resume](https://drive.google.com/file/d/1mNFVL09O2jS-75c6azkfxQB-btrNP6ek/)
 
 ## 🌐 Contact
 

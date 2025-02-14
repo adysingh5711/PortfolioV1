@@ -7,7 +7,12 @@ html {
     @apply overflow-x-hidden scroll-smooth
 }
 
-body {
+@media (min-width: 768px) { /* Adjust the min-width as needed */
+    .desktop-margin {
+        margin-left: 5rem;
+    }
+}
 
+body {
     @apply dark:bg-[#00040f] bg-[#e2e2e2ab]
 }

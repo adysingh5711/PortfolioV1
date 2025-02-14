@@ -1,5 +1,10 @@
 import Project_prop from "./project_prop";
-import { Portfolio, BrainIQ, EmotionInference } from "../constants/Constant";
+import {
+  LichessMockup,
+  Portfolio,
+  BrainIQ,
+  EmotionInference,
+} from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import AOS from "aos";
@@ -34,6 +39,34 @@ const Projects = () => {
           className="PROJECTS mt-16 grid gap-10 grid-cols-2 max-sm:grid-cols-1"
           data-aos="zoom-out-down"
         >
+          <Project_prop
+            title="Lichess Review"
+            para="A production-ready, full-stack Lichess analysis tool with real-time data processing and performance optimization"
+            img={LichessMockup}
+            link="https://lichess-review.vercel.app/"
+            github_link="https://github.com/adysingh5711/LichessYearInReview"
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            tailwindcss={
+              <Tooltip title="TailWind CSS" arrow>
+                <IconButton>
+                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            vite={
+              <Tooltip title="Vite" arrow>
+                <IconButton>
+                  <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
           <Project_prop
             title="Portfolio Website"
             para="Personal portfolio website created with react and Tailwind CSS"

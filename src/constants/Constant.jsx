@@ -13,12 +13,15 @@ import Vue from "../assets/vue.png";
 import Solidity from "../assets/Solidity.svg";
 import Figma from "../assets/figma.png";
 import VS_Code from "../assets/VS Code.svg";
+import Nextjs from "../assets/nextjs-icon.svg";
+import Nodejs from "../assets/nodejs-logo.svg";
 
 import Hacktoberfest from "../assets/Hacktoberfest.jpeg";
 import SSOC from "../assets/SSOC.jpeg";
 import Sports from "../assets/Sports_Club.png";
 import IIITians from "../assets/IIITians_Network.jpg";
 
+import LichessMockup from "../assets/LichessMockup.png";
 import Portfolio from "../assets/Portfolio-Website.png";
 import BrainIQ from "../assets/Brain-IQ.png";
 import EmotionInference from "../assets/Emotion-Inference.png";
@@ -39,10 +42,13 @@ export {
   Solidity,
   Figma,
   VS_Code,
+  Nextjs,
+  Nodejs,
   Hacktoberfest,
   SSOC,
   Sports,
   IIITians,
+  LichessMockup,
   Portfolio,
   BrainIQ,
   EmotionInference,

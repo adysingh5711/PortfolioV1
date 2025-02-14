@@ -14,6 +14,8 @@ import {
   Solidity,
   Figma,
   VS_Code,
+  Nextjs,
+  Nodejs,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -37,15 +39,17 @@ const Skills = () => {
         >
           <Image img={HTML}></Image>
           <Image img={CSS}></Image>
-          <Image img={Javascript}></Image>
-          <Image img={react}></Image>
           <Image img={TailwindCSS}></Image>
+          <Image img={Javascript}></Image>
           <Image img={Vue}></Image>
-          <Image img={Solidity}></Image>
-          <Image img={CPP}></Image>
-          <Image img={C}></Image>
-          <Image img={Python}></Image>
           <Image img={Vite}></Image>
+          <Image img={react}></Image>
+          <Image img={Nextjs}></Image>
+          <Image img={Nodejs}></Image>
+          <Image img={Solidity}></Image>
+          <Image img={C}></Image>
+          <Image img={CPP}></Image>
+          <Image img={Python}></Image>
           <Image img={Figma}></Image>
           <Image img={Git}></Image>
           <Image img={Github}></Image>
