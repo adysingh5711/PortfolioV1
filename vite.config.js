@@ -8,4 +8,16 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',
   },
-})
+  build: {
+    sourcemap: true, // Enable source maps
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor'; // Create a separate chunk for vendor libraries
+          }
+        },
+      },
+    },
+  },
+});

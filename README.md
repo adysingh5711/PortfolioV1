@@ -57,6 +57,11 @@ Welcome to my personal portfolio! I am Aditya Singh, a passionate programmer and
 
 ## 🛠️ **Projects**
 
+### **Lichess Review**
+
+**Tech Stack**: Tailwind CSS, Shadcn UI, React, Next.js, TypeScript, Puppeteer
+A production-ready, full-stack Lichess analysis tool with real-time data processing and performance optimization
+
 ### **Portfolio Website**
 
 **Tech Stack**: React, Tailwind CSS, Vite  
