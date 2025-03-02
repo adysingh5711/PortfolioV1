@@ -1,6 +1,7 @@
 # **Personal Portfolio - Aditya Singh**
 
-Welcome to my personal portfolio! I am Aditya Singh, a passionate programmer and designer who loves creating technology solutions to solve real-world problems. This portfolio website showcases my skills, projects, and contributions.
+Welcome to my personal portfolio! I am Aditya Singh, a passionate programmer and designer who loves creating technology solutions to solve real-world problems. This portfolio website showcases my skills, projects, and contributions.\
+***Updated version available at*** - [0xaditya.xyz](https://0xaditya.xyz)
 
 ---
 
@@ -113,7 +114,7 @@ A project that monitors real-time data from street lights and implements a secur
 
 You can view my resume by clicking the following link:
 
-[Aditya's Resume](https://drive.google.com/file/d/1mNFVL09O2jS-75c6azkfxQB-btrNP6ek/)
+[Aditya's Resume](https://drive.google.com/file/d/1wrlb8fvME2ddpZZ7TG_-cmm13sOLOP6i/view?usp=sharing)
 
 ## 🌐 Contact
 
