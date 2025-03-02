@@ -18,7 +18,6 @@ import Nodejs from "../assets/nodejs-logo.svg";
 
 import Hacktoberfest from "../assets/Hacktoberfest.jpeg";
 import SSOC from "../assets/SSOC.jpeg";
-import Sports from "../assets/Sports_Club.png";
 import IIITians from "../assets/IIITians_Network.jpg";
 
 import LichessMockup from "../assets/LichessMockup.png";
@@ -46,7 +45,6 @@ export {
   Nodejs,
   Hacktoberfest,
   SSOC,
-  Sports,
   IIITians,
   LichessMockup,
   Portfolio,
