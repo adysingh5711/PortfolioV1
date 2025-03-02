@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+import { AiOutlineClose } from "react-icons/ai";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -5,8 +7,6 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import HashLoader from "react-spinners/HashLoader";
-
-import { useState, useEffect } from "react";
 
 const override = {
   display: "flex",
@@ -18,6 +18,7 @@ const override = {
 
 const App = () => {
   const [loading, setLoading] = useState(true);
+  const [showBanner, setShowBanner] = useState(true);
 
   useEffect(() => {
     setLoading(true);
@@ -25,6 +26,7 @@ const App = () => {
       setLoading(false);
     }, 3000);
   }, []);
+
   return (
     <>
       {loading ? (
@@ -40,15 +42,32 @@ const App = () => {
         </div>
       ) : (
         <div>
-          <Navbar></Navbar>
-          <About></About>
-          <Experience></Experience>
-          <Education></Education>
-          <Projects></Projects>
-          <Contact></Contact>
+          {showBanner && (
+            <div className="bg-blue-500 text-white text-center p-2 fixed top-0 left-0 w-full z-50">
+              Check out the new portfolio version live at{" "}
+              <a href="https://0xaditya.xyz" className="underline">
+                0xaditya.xyz
+              </a>
+              <button
+                className="absolute right-2 top-1/2 transform -translate-y-1/2"
+                onClick={() => setShowBanner(false)}
+              >
+                <AiOutlineClose className="text-white" />
+              </button>
+            </div>
+          )}
+          <div className={showBanner ? "mt-12" : ""}>
+            <Navbar />
+            <About />
+            <Experience />
+            <Education />
+            <Projects />
+            <Contact />
+          </div>
         </div>
       )}
     </>
   );
 };
+
 export default App;
