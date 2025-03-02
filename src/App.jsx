@@ -44,8 +44,8 @@ const App = () => {
         <div>
           {showBanner && (
             <div className="bg-blue-500 text-white text-center p-2 fixed top-0 left-0 w-full z-50">
-              Check out the new portfolio version live at{" "}
-              <a href="https://0xaditya.xyz" className="underline">
+              Check out the new Portfolio live at{" "}
+              <a href="https://0xaditya.vercel.app" className="underline">
                 0xaditya.xyz
               </a>
               <button
